@@ -1,12 +1,12 @@
-//Document is the DOM can be accessed in the console with document.window.
-// Tree is from the top, html, body, p etc.
+//Document is the DOM can be accessed in the console with document.window. Документ — это DOM, к которому можно получить доступ в консоли с помощью document.window.
+// Tree is from the top, html, body, p etc. Дерево сверху, html, body, p и т.д.
 
-//Problem: User interaction does not provide the correct results.
-//Solution: Add interactivity so the user can manage daily tasks.
-//Break things down into smaller steps and take each step at a time.
+//Problem: User interaction does not provide the correct results. Проблема: взаимодействие с пользователем не дает правильных результатов.
+//Solution: Add interactivity so the user can manage daily tasks. Решение: добавьте интерактивность, чтобы пользователь мог управлять ежедневными задачами.
+//Break things down into smaller steps and take each step at a time. Разбейте все на более мелкие шаги и выполняйте каждый шаг за раз.
 
 
-// Event handling, user interaction is what starts the code execution.
+// Event handling, user interaction is what starts the code execution. Обработка событий, взаимодействие с пользователем — это то, что запускает выполнение кода.
 
 var taskInput=document.getElementById("new-task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
